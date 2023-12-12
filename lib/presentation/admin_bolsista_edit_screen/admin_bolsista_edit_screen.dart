@@ -38,7 +38,6 @@ class AdminBolsistaEditScreen extends StatelessWidget {
                 child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      SizedBox(height: 32.v),
                       Text("Dados do Bolsista",
                           style: theme.textTheme.titleSmall),
                       SizedBox(height: 32.v),

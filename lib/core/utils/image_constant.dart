@@ -12,6 +12,8 @@ class ImageConstant {
   static String imgIconCadastrarPreOs =
       '$imagePath/img_icon_cadastrar_pre_os.svg';
 
+  static String imgViewListFill0 = '$imagePath/img_view_list_fill0.svg';
+
   static String imgTaskFill0Wght = '$imagePath/img_task_fill0_wght.svg';
 
   static String imgShoppingBasket = '$imagePath/img_shopping_basket.svg';
@@ -58,20 +60,12 @@ class ImageConstant {
 
   static String imgVector = '$imagePath/img_vector.svg';
 
-  static String imgViewListFill0 = '$imagePath/img_view_list_fill0.svg';
-
   static String imgUser = '$imagePath/img_user.svg';
 
   static String imgArrowRight = '$imagePath/img_arrow_right.svg';
 
   static String imgArrowRightIndigoA400 =
       '$imagePath/img_arrow_right_indigo_a400.svg';
-
-  static String imgGrid = '$imagePath/img_grid.svg';
-
-  static String imgHome = '$imagePath/img_home.svg';
-
-  static String imgBasket = '$imagePath/img_basket.svg';
 
   static String imageNotFound = 'assets/images/image_not_found.png';
 }

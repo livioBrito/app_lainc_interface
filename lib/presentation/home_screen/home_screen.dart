@@ -1,4 +1,4 @@
-import '../home_screen/widgets/menuprincipal_item_widget.dart';
+import '../home_screen/widgets/menuprincipalcadastrarprecos_item_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:lainc_app/core/app_export.dart';
 import 'package:lainc_app/widgets/app_bar/appbar_title.dart';
@@ -29,7 +29,7 @@ class HomeScreen extends StatelessWidget {
                 style: theme.textTheme.titleSmall,
               ),
               SizedBox(height: 32.v),
-              _buildMenuPrincipal(context),
+              _buildMenuPrincipalCadastrarPrecos(context),
             ],
           ),
         ),
@@ -59,7 +59,7 @@ class HomeScreen extends StatelessWidget {
   }
 
   /// Section Widget
-  Widget _buildMenuPrincipal(BuildContext context) {
+  Widget _buildMenuPrincipalCadastrarPrecos(BuildContext context) {
     return Container(
       decoration: AppDecoration.outlineBlack.copyWith(
         borderRadius: BorderRadiusStyle.roundedBorder15,
@@ -76,7 +76,7 @@ class HomeScreen extends StatelessWidget {
         physics: NeverScrollableScrollPhysics(),
         itemCount: 4,
         itemBuilder: (context, index) {
-          return MenuprincipalItemWidget();
+          return MenuprincipalcadastrarprecosItemWidget();
         },
       ),
     );

@@ -105,20 +105,20 @@ class AdminDashboardScreen extends StatelessWidget {
                   decoration: AppDecoration.outlineBlack
                       .copyWith(borderRadius: BorderRadiusStyle.roundedBorder8),
                   child: _buildButtonBolsistas(context,
-                      text: "Cadastrar Locais",
-                      arrowImage: ImageConstant.imgArrowRightIndigoA400)),
+                      dynamicText: "Cadastrar Locais",
+                      dynamicImage: ImageConstant.imgArrowRightIndigoA400)),
               SizedBox(height: 16.v),
               Padding(
                   padding: EdgeInsets.only(right: 1.h),
                   child: _buildButtonBolsistas(context,
-                      text: "Bolsistas",
-                      arrowImage: ImageConstant.imgArrowRightIndigoA400)),
+                      dynamicText: "Bolsistas",
+                      dynamicImage: ImageConstant.imgArrowRightIndigoA400)),
               SizedBox(height: 16.v),
               Padding(
                   padding: EdgeInsets.only(right: 1.h),
                   child: _buildButtonBolsistas(context,
-                      text: "Exportar Planilha",
-                      arrowImage: ImageConstant.imgArrowRightWhiteA700)),
+                      dynamicText: "Exportar Planilha",
+                      dynamicImage: ImageConstant.imgArrowRightWhiteA700)),
               SizedBox(height: 32.v),
               CustomOutlinedButton(
                   height: 37.v,
@@ -132,8 +132,8 @@ class AdminDashboardScreen extends StatelessWidget {
   /// Common widget
   Widget _buildButtonBolsistas(
     BuildContext context, {
-    required String text,
-    required String arrowImage,
+    required String dynamicText,
+    required String dynamicImage,
   }) {
     return Container(
         padding: EdgeInsets.symmetric(horizontal: 14.h, vertical: 12.v),
@@ -143,11 +143,11 @@ class AdminDashboardScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text(text,
+              Text(dynamicText,
                   style: CustomTextStyles.labelLargeGray70001Medium
                       .copyWith(color: appTheme.gray70001)),
               CustomImageView(
-                  imagePath: arrowImage,
+                  imagePath: dynamicImage,
                   height: 12.v,
                   width: 7.h,
                   margin: EdgeInsets.only(top: 2.v, bottom: 3.v))

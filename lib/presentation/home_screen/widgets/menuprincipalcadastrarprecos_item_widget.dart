@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:lainc_app/core/app_export.dart';
 
 // ignore: must_be_immutable
-class MenuprincipalItemWidget extends StatelessWidget {
-  const MenuprincipalItemWidget({Key? key})
+class MenuprincipalcadastrarprecosItemWidget extends StatelessWidget {
+  const MenuprincipalcadastrarprecosItemWidget({Key? key})
       : super(
           key: key,
         );

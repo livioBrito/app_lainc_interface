@@ -41,7 +41,7 @@ class AdminListaDeProdutosScreen extends StatelessWidget {
     return CustomAppBar(
         title: AppbarTitleImage(
             imagePath: ImageConstant.imgArrowLeft,
-            margin: EdgeInsets.only(left: 16.h),
+            margin: EdgeInsets.only(left: 16.h, top: 56.v, bottom: 23.v),
             onTap: () {
               onTapArrowLeft(context);
             }),

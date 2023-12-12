@@ -1,7 +1,7 @@
 import '../bolsista_lista_de_produtos_screen/widgets/productlist_item_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:lainc_app/core/app_export.dart';
-import 'package:lainc_app/widgets/app_bar/appbar_leading_image.dart';
+import 'package:lainc_app/widgets/app_bar/appbar_title_image.dart';
 import 'package:lainc_app/widgets/app_bar/custom_app_bar.dart';
 import 'package:lainc_app/widgets/custom_search_view.dart';
 
@@ -40,10 +40,9 @@ class BolsistaListaDeProdutosScreen extends StatelessWidget {
   /// Section Widget
   PreferredSizeWidget _buildAppBar(BuildContext context) {
     return CustomAppBar(
-        leadingWidth: double.maxFinite,
-        leading: AppbarLeadingImage(
+        title: AppbarTitleImage(
             imagePath: ImageConstant.imgArrowLeft,
-            margin: EdgeInsets.fromLTRB(16.h, 56.v, 314.h, 23.v),
+            margin: EdgeInsets.only(left: 16.h, top: 56.v, bottom: 23.v),
             onTap: () {
               onTapArrowLeft(context);
             }),
