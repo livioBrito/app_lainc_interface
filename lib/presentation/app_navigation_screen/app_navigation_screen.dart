@@ -83,12 +83,6 @@ class AppNavigationScreen extends StatelessWidget {
                         ),
                         _buildScreenTitle(
                           context,
-                          screenTitle: "bolsista_dashboard - Container",
-                          onTapScreenTitle: () => onTapScreenTitle(context,
-                              AppRoutes.bolsistaDashboardContainer1Screen),
-                        ),
-                        _buildScreenTitle(
-                          context,
                           screenTitle: "alert_admin",
                           onTapScreenTitle: () => onTapScreenTitle(
                               context, AppRoutes.alertAdminScreen),
@@ -107,9 +101,9 @@ class AppNavigationScreen extends StatelessWidget {
                         ),
                         _buildScreenTitle(
                           context,
-                          screenTitle: "popup_send_confirmation_bolsista",
-                          onTapScreenTitle: () => onTapScreenTitle(context,
-                              AppRoutes.popupSendConfirmationBolsistaScreen),
+                          screenTitle: "popup_send_confirmation",
+                          onTapScreenTitle: () => onTapScreenTitle(
+                              context, AppRoutes.popupSendConfirmationScreen),
                         ),
                       ],
                     ),

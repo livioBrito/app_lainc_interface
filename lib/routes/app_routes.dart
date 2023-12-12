@@ -8,11 +8,10 @@ import 'package:lainc_app/presentation/admin_product_edit_screen/admin_product_e
 import 'package:lainc_app/presentation/admin_lista_de_produtos_screen/admin_lista_de_produtos_screen.dart';
 import 'package:lainc_app/presentation/admin_research_site_screen/admin_research_site_screen.dart';
 import 'package:lainc_app/presentation/basket_list_screen/basket_list_screen.dart';
-import 'package:lainc_app/presentation/bolsista_dashboard_container1_screen/bolsista_dashboard_container1_screen.dart';
 import 'package:lainc_app/presentation/alert_admin_screen/alert_admin_screen.dart';
 import 'package:lainc_app/presentation/category_filters_screen/category_filters_screen.dart';
 import 'package:lainc_app/presentation/save_confirmation_screen/save_confirmation_screen.dart';
-import 'package:lainc_app/presentation/popup_send_confirmation_bolsista_screen/popup_send_confirmation_bolsista_screen.dart';
+import 'package:lainc_app/presentation/popup_send_confirmation_screen/popup_send_confirmation_screen.dart';
 import 'package:lainc_app/presentation/app_navigation_screen/app_navigation_screen.dart';
 
 class AppRoutes {
@@ -36,11 +35,7 @@ class AppRoutes {
 
   static const String basketListScreen = '/basket_list_screen';
 
-  static const String bolsistaDashboardContainerPage =
-      '/bolsista_dashboard_container_page';
-
-  static const String bolsistaDashboardContainer1Screen =
-      '/bolsista_dashboard_container1_screen';
+  static const String bolsistaDashboardPage = '/bolsista_dashboard_page';
 
   static const String alertAdminScreen = '/alert_admin_screen';
 
@@ -48,8 +43,8 @@ class AppRoutes {
 
   static const String saveConfirmationScreen = '/save_confirmation_screen';
 
-  static const String popupSendConfirmationBolsistaScreen =
-      '/popup_send_confirmation_bolsista_screen';
+  static const String popupSendConfirmationScreen =
+      '/popup_send_confirmation_screen';
 
   static const String appNavigationScreen = '/app_navigation_screen';
 
@@ -63,13 +58,10 @@ class AppRoutes {
     adminListaDeProdutosScreen: (context) => AdminListaDeProdutosScreen(),
     adminResearchSiteScreen: (context) => AdminResearchSiteScreen(),
     basketListScreen: (context) => BasketListScreen(),
-    bolsistaDashboardContainer1Screen: (context) =>
-        BolsistaDashboardContainer1Screen(),
     alertAdminScreen: (context) => AlertAdminScreen(),
     categoryFiltersScreen: (context) => CategoryFiltersScreen(),
     saveConfirmationScreen: (context) => SaveConfirmationScreen(),
-    popupSendConfirmationBolsistaScreen: (context) =>
-        PopupSendConfirmationBolsistaScreen(),
+    popupSendConfirmationScreen: (context) => PopupSendConfirmationScreen(),
     appNavigationScreen: (context) => AppNavigationScreen()
   };
 }

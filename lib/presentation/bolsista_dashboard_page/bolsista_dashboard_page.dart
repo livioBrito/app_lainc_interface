@@ -4,8 +4,8 @@ import 'package:lainc_app/widgets/app_bar/appbar_leading_image.dart';
 import 'package:lainc_app/widgets/app_bar/custom_app_bar.dart';
 import 'package:lainc_app/widgets/custom_outlined_button.dart';
 
-class BolsistaDashboardContainerPage extends StatelessWidget {
-  const BolsistaDashboardContainerPage({Key? key}) : super(key: key);
+class BolsistaDashboardPage extends StatelessWidget {
+  const BolsistaDashboardPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

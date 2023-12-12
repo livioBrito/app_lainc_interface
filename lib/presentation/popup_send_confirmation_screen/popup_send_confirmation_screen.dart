@@ -3,8 +3,8 @@ import 'package:lainc_app/core/app_export.dart';
 import 'package:lainc_app/widgets/custom_elevated_button.dart';
 import 'package:lainc_app/widgets/custom_outlined_button.dart';
 
-class PopupSendConfirmationBolsistaScreen extends StatelessWidget {
-  const PopupSendConfirmationBolsistaScreen({Key? key})
+class PopupSendConfirmationScreen extends StatelessWidget {
+  const PopupSendConfirmationScreen({Key? key})
       : super(
           key: key,
         );
