@@ -1,0 +1,32 @@
+name: lainc_app
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  intl: ^0.18.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Plus Jakarta Sans
+      fonts: 
+        - asset: assets/fonts/PlusJakartaSansRomanMedium.ttf
+          weight: 500
+        - asset: assets/fonts/PlusJakartaSansRomanLight.ttf
+          weight: 300
+        - asset: assets/fonts/PlusJakartaSansRomanSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/PlusJakartaSansExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/PlusJakartaSansRomanRegular.ttf
+          weight: 400
